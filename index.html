@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Bank.com</title>
+</head>
+<body>
+    <div class="screen">
+        <h1><em>BANK</em></h1>
+        <div class="err" id="err">
+            <!-- <p>*Wrong</p> -->
+        </div>
+        <input type="number" name="amount" placeholder="0" class="amt" id="amt">
+        <div class="btns">
+            <button class="btn create" id="create" onclick="onCreate()">Create Account</button>
+            <button class="btn deposit" id="deposit" onclick="onDeposit()">Deposit</button>
+            <button class="btn withdraw" id="withdraw" onclick="onWithdraw()">Withdraw</button>
+        </div>
+        <div class="ans" id="ans">
+            <!-- <p>Amount: $23.00</p> -->
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
